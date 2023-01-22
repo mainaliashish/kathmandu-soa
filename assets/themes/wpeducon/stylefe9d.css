@@ -1,0 +1,435 @@
+/*
+Theme Name: wpeducon
+Theme URI: http://themeum.com/wordpress/educon
+Author: Themeum
+Author URI: http://themeum.com/
+Description: Premium WordPress University Theme.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: right-sidebar, two-columns
+Text Domain: wpeducon
+*/
+
+/*=======================================*
+*=======   TABLE OF CONTENT   ========*
+*=======================================*
+
+1. Io Test
+2. Features addons
+3. Login
+4. Animated counter
+5. Popup addons
+
+=======================================*/
+
+
+/*=========================================
+*==========     Io Test       ============
+*=======================================*/
+
+.entry-summary img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+img.alignnone {
+  max-width: 100%;
+  height: auto;
+}
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+  clear: both;
+}
+
+.alignright {
+  float:right;
+  margin: 10px 0 20px 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 10px 20px 20px 0;
+}
+
+.aligncenter {
+  display: block;
+  margin: 10px auto 15px auto;
+}
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%; /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+  clear: both;
+}
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 10px 5px 0;
+}
+
+.default-page article{
+
+}
+
+.default-page .entry-title{
+  margin-bottom: 20px;
+}
+
+table {
+  border-bottom: 1px solid #f1f1f1;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0 0 20px;
+  width: 100%;
+}
+
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+
+caption {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+th {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+th,
+td,
+.table>tbody>tr>td{
+  border-top: 1px solid #efefef;
+  padding: 12px 10px;
+}
+
+dl {
+  margin: 0 20px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 0 20px;
+}
+
+blockquote p{
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+table{
+  border: 1px solid #f1f1f1;
+}
+
+blockquote{
+}
+
+.entry-content a{
+
+}
+
+.entry-content pre{
+  font-size: 12px;
+  padding: 20px;
+}
+
+.gallery-format {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+
+/* features addons */
+.themeum-feature-wrapper {
+  background: #fff;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.themeum-feature-wrapper:hover {
+    box-shadow: 0px 15px 30px 0px rgba(0,0,0,0.1);
+}
+.feature-content-area {
+  padding: 20px;
+}
+.feature-img-area {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.feature-img-area img {
+  position: relative;
+  z-index: 3;
+  padding: 50px 40px;
+  display: inline-block;
+  margin: 0 auto; 
+}
+.themeum-feature-wrapper:hover .feature-img-area:before {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.feature-btn i {
+  margin-left: 5px;
+}
+.feature-img-area-default {
+  overflow: hidden;
+}
+
+.feature-img-area-default img {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.feature-img-area-default:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/* core VC */
+.row-overflow.vc_row[data-vc-full-width] {
+  overflow: visible;
+}
+
+/* popur addons */
+.themeum-popup-video {
+  max-width: 450px;
+  margin: 0 auto;
+}
+.themeum-popup-video .width.left,
+.themeum-popup-video .width.right,
+.themeum-popup-video .width .middle {
+  float: left;
+  width: 33.33333%;
+}
+.themeum-popup-video .width {
+  margin: 0;
+}
+.themeum-popup-video .video-width{
+  display: inline-block;
+  margin: 0;
+}
+
+
+.popup-video.middle {
+  margin-top: -10px;
+}
+
+/* Animated counter */
+.counter-content {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 3px;
+  padding: 44px 30px 20px; 
+}
+.counter-content-in {
+  display: block;
+  position: relative; 
+}
+
+.counter-content .counter-number-icon{
+  font-size: 36px;
+  left: auto;
+  line-height: 1;
+  position: absolute;
+  top: 0;
+}
+.counter-content .counter-number-title {
+  color: #252525;
+  margin-top: 0;
+  margin-bottom: 39px;
+}
+.counter-content .themeum-counter-number {
+  font-weight: 300;
+}
+.counter-content .counter-symbol {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1;
+  color: #252525;
+}
+
+
+
+/*=========================================
+ *=======     Login       ============
+*=======================================*/
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.modal {
+    text-align: center;
+}
+.modal-content {
+    border-radius: 0;
+    padding: 30px 30px 0;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+.modal-content .modal-header {
+    border: none;
+}
+.modal-content .modal-header .title {
+  margin-top: 0;
+  font-weight: 600;
+}
+.modal-header .close {
+  position: absolute;
+  right: 2px;
+  top: 4px;
+  color: #777;
+  text-align: center;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  width: 35px;
+  height: 35px;
+  line-height: 33px;
+  font-size: 24px;
+}
+
+.modal-header .close:hover{
+  color: red;
+}
+
+.modal-content input[type="text"] {
+  margin-bottom: 20px;
+}
+
+.modal-content input[type="password"] {
+  margin-bottom: 30px;
+}
+
+.modal-content .lost-pass strong{
+  margin-left: 20px;
+}
+
+.modal-content .lost-pass {
+  color: #000;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+}
+
+.modal-content .modal-footer {
+  padding: 20px 0 5px;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 40px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+
+.gallery-caption,
+.bypostauthor,
+.screen-reader-text{}
+
+
+.single article.hentry{
+  margin-bottom: 100px;
+}
+
+.conference-img .plus-icon::before {
+    background: url(images/arrow.png) no-repeat scroll center center / cover;
+    bottom: 0;
+    content: "";
+    left: 0;
+    margin: auto;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(0);
+    -webkit-transition: all 400ms ease 0s;
+    transition: all 400ms ease 0s;
+    visibility: hidden;
+    height: 110px;
+    width: 110px;
+}
+
+.conference-img:hover .plus-icon:before {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+
+.gallery-icon a img{
+  margin: 0 auto;
+}
+#sidebar .widget ul.children li a {
+    text-align: left;
+    display: inline-block;
+    width: 90%;
+}

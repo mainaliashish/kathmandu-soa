@@ -1,0 +1,78 @@
+/*
+	#66afe9
+*/
+body{
+	background-color:#e9e9e9;
+}
+.mainPannel {
+	margin-top:40%;
+    display: block;
+    background: #FFFFFF;
+    padding: 40px 0px 15px 0px;
+    box-shadow: 0 1px 3px rgba(236, 19, 19, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+}
+.mainPannel .titleLogin h1{
+border-left: 6px solid rgba(237, 28, 36, 0.8);
+color:rgba(237, 28, 36, 0.8);
+padding-left: 20px;
+}
+.mainPannel .loginFormInput{
+	padding: 0px 20px 0px 20px;
+}
+.mainPannel .loginFormInput .form-control{
+	height:42px;
+	border-radius:0px;
+	border-color: #FFFFFF;
+	box-shadow: none;
+	font-size:18px;
+	border-bottom:1px solid #cdcdcd;
+}
+.mainPannel .loginFormInput input:focus{
+	border-bottom:2px solid rgba(237, 28, 36, 0.8);
+}
+.mainPannel .loginFormInput label{
+	visibility: hidden;
+}
+.mainPannel .loginGoBtn {
+    display: block;
+    cursor: pointer;
+    /*width: 20%;*/
+    margin-top: 40px;
+    border: 2px solid #CDCDCD;
+    padding: 11px 50px 11px 50px;
+    text-align: center;
+    color:#CDCDCD;
+    font-weight: bold;
+}
+ .loginGoBtn:hover{
+    text-decoration: none;
+    border-color:rgba(237, 28, 36, 0.8);
+    color:rgba(237, 28, 36, 0.8);
+}
+
+     .mainPannel .loginFormInput .form-group{
+     	margin-bottom:30px;
+     }
+     .forgotPassword{
+     	padding-top:30px;
+ 		
+ 		}
+ .forgotPassword a{
+ 	color:#CDCDCD;
+ }
+ .forgotPassword a:hover{
+ 	text-decoration: none;
+ 	cursor: pointer !important;
+ 	color:#66afe9;
+ }
+ 
+ .titleLogin h4{
+    padding: 0px 0 0 8px;
+    margin: 0px;
+    color: darkgrey;
+    display: none;
+text-transform: uppercase;
+}
+
+ }

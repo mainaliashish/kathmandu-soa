@@ -1,0 +1,275 @@
+/*
+* Plugin Name: Themeum Core
+* Plugin URI: http://www.themeum.com/item/core
+* Author: Themeum
+* Author URI: http://www.themeum.com
+* License - GNU/GPL V2 or Later
+* Description: Themeum Core is a required plugin for this theme.
+* Version: 1.0
+*/
+
+
+.ui-datepicker {
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 0 54px rgba(0,0,0,0.15);
+	display: none;
+	margin-top: 4px;
+	padding: 10px;
+	width: 265px;
+	z-index: 100 !important;
+}
+.ui-datepicker a,
+.ui-datepicker a:hover {
+	text-decoration: none;
+}
+.ui-datepicker a:hover,
+.ui-datepicker td:hover a {
+	color: #2A6496;
+	-webkit-transition: color 0.1s ease-in-out;
+	-moz-transition: color 0.1s ease-in-out;
+	-o-transition: color 0.1s ease-in-out;
+	transition: color 0.1s ease-in-out;
+}
+.ui-datepicker .ui-datepicker-header {
+	margin-bottom: 10px;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title {
+	font-weight: 700;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	cursor: default;
+	font-family: 'Glyphicons Halflings';
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	margin-top: 2px;
+}
+.ui-datepicker .ui-datepicker-prev {
+	float: left;
+	text-align: left;
+}
+.ui-datepicker .ui-datepicker-next {
+	float: right;
+	text-align: right;
+}
+.ui-datepicker .ui-datepicker-prev:hover,
+.ui-datepicker .ui-datepicker-next:hover {
+	background: none !important;
+}
+.ui-datepicker .ui-datepicker-prev:before {
+	content: "\f104";
+	font-family: fontawesome;
+	font-size: 22px;
+}
+.ui-datepicker .ui-datepicker-next:before {
+	content: "\f105";
+	font-family: fontawesome;
+	font-size: 22px;
+}
+.ui-datepicker .ui-icon {
+	display: none;
+}
+.ui-datepicker .ui-datepicker-calendar {
+	table-layout: fixed;
+	width: 100%;
+}
+.ui-datepicker .ui-datepicker-calendar th,
+.ui-datepicker .ui-datepicker-calendar td {
+	text-align: center;
+	padding: 2px 0;
+	color: #b5b5b5;
+}
+.ui-datepicker .ui-datepicker-calendar th{
+	color: #000;
+}
+.ui-datepicker .ui-datepicker-calendar td {
+	-webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	-moz-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	-o-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+.ui-datepicker .ui-datepicker-calendar td:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-calendar td a {
+	text-decoration: none;
+	color: #000;
+}
+.ui-datepicker .ui-datepicker-current-day a {
+	background-color: #00aeef;
+
+}
+.ui-datepicker .ui-datepicker-current-day a {
+	color: #fff !important;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable:hover {
+	background-color: #fff;
+	cursor: default;
+}
+.ui-datepicker .ui-datepicker-calendar,
+.ui-datepicker .ui-datepicker-calendar th, .ui-datepicker .ui-datepicker-calendar td{
+	border: none;
+}
+.ui-datepicker .ui-datepicker-calendar th, .ui-datepicker .ui-datepicker-calendar td{
+	width: 35px;
+	height: 35px;
+}
+.ui-datepicker .ui-datepicker-calendar td:hover{
+	background-color: transparent;
+}
+.ui-datepicker .ui-datepicker-calendar td:hover a{
+	color: #00aeef;
+}
+.ui-datepicker .ui-datepicker-calendar td span, .ui-datepicker .ui-datepicker-calendar td a {
+	width: 33px;
+	height: 33px;
+	line-height: 30px;
+	padding: 0;
+	border: 2px solid transparent;
+	box-shadow: none;
+	border-radius: 100%;
+	display: block;
+}
+.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-today a{
+	background: #ececec;
+	color: #000;
+}
+.ui-datepicker .ui-datepicker-calendar td.ui-state-active a{
+	background: #00aeef;
+}
+
+
+.themeum-counter-number,.counter-symbol{
+	display: inline-block;
+}
+.align-center .counter-content .counter-number-icon{
+	position: relative;
+}
+.align-right .counter-content span.counter-number-icon{
+	left: 5px;
+}
+.align-left .counter-content span.counter-number-icon{
+	right: 5px;
+}
+.padding-left30.wpb_column.vc_column_container{
+	padding-right: 30px;
+}
+
+
+/* --------------------------------------- */
+/* ---------- Event Shortcode CSS -------- */
+/* --------------------------------------- */
+.single-event-content .event-content-wrapper {
+    padding: 30px 0 32px;
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: auto;
+    bottom: -120px;
+    overflow: hidden;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    height: 120px;
+    border-radius: 0px 0px 3px 3px;
+}
+.single-event-content:hover .event-content-wrapper{
+    height: 196px;
+}
+.single-event-content {
+    margin-bottom: 150px;
+    position: relative;
+    border-radius: 3px;
+
+}
+.single-event-content .stringscountdown{
+    display: none;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.single-event-content:hover .stringscountdown{
+    display: block;
+    color: #fff;
+}
+.single-event-content:hover .countdown-timer-title,
+.single-event-content:hover .countdown-timer-subtitle a{
+    color: #fff;
+}
+.single-event-content {
+    background: #fff;
+    color: #000;
+    text-align: center;
+}
+.event-content-wrapper {
+    padding: 28px 0 32px;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    top: auto;
+    bottom: -120px;
+    overflow: hidden;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    height: 120px;
+}
+.event-content-wrapper:hover .event-content-wrapper{
+    height: 196px;
+}
+.event-countdown-section {
+    display: inline-block;
+}
+span.countdown-date {
+    display: block;
+    font-weight: 400;
+    margin: 6px 0 0;
+    padding: 0 22px;
+    font-size: 21px !important;
+}
+.countdown-timer-title{
+    margin-top: 0;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.countdown-timer-subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.countdown-timer-subtitle a {
+    color: #252525;
+}
+span.countdown-period {
+    text-transform: uppercase;
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+}
+.event-single-img img{
+	border-radius: 3px 3px 0px 0px;
+}
+
+
+.single-event-content,.event-content-wrapper{
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.single-event-content:hover,.event-content-wrapper:hover {
+    box-shadow: 0px 15px 30px 0px rgba(0,0,0,0.1);
+}
